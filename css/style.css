@@ -8,7 +8,7 @@ body {
   font-family: "Fauna One", serif;
   font-size: 17px;
   line-height: 1.8 !important;
-background-color: green;
+  background-color: #0b5d1e;
 }
 html {
   overflow-x: hidden;
@@ -45,8 +45,7 @@ header > h1 {
 }
 
 iframe {
-  border: 1px solid green;
-  border-radius: 4px;
+  border: none;
 }
 
 .iframe-container {
