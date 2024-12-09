@@ -46,6 +46,7 @@ header > h1 {
 
 iframe {
   border: none;
+  border-radius: 5px;
 }
 
 .iframe-container {
