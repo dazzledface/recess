@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import "https://fonts.googleapis.com/css?family=Fauna+One";
+
+/*---------- Global Style ----------*/
+
+body {
+  color: #222;
+  font-family: "Fauna One", serif;
+  font-size: 17px;
+  line-height: 1.8 !important;
+}
+html {
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  color: #111;
+  line-height: 1.5em;
+  margin-top: 0;
+}
+p {
+  font-family: "Fauna One", serif;
+  font-weight: 300;
+  margin-top: 1px;
+}
+p,
+ul,
+li {
+  color: #666;
+}
+
+
+
+header {
+   margin: 20px 0px 20px 30px;
+}
+
+header > h1 {
+   font-weight: bold;
+}
+
+
+iframe {
+   border: 1px solid black;
+   border-radius: 4px;
+}
+
+.iframe-container {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.iframe-left {
+  flex: 2;
+  border-radius: 10px;
+  min-width: 400px;
+  margin: 0 auto;
+}
+
+.iframe-right {
+  flex: 4;
+  border-radius: 10px;
+  min-width: 400px;
+  margin: 0 auto;
+}
