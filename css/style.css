@@ -4,10 +4,11 @@
 /*---------- Global Style ----------*/
 
 body {
-  color: #222;
+  color: white;
   font-family: "Fauna One", serif;
   font-size: 17px;
   line-height: 1.8 !important;
+background-color: green;
 }
 html {
   overflow-x: hidden;
@@ -20,7 +21,7 @@ h5,
 h6 {
   font-family: "Open Sans", sans-serif;
   font-weight: 200;
-  color: #111;
+  color: white;
   line-height: 1.5em;
   margin-top: 0;
 }
@@ -44,7 +45,7 @@ header > h1 {
 }
 
 iframe {
-  border: 1px solid grey;
+  border: 1px solid green;
   border-radius: 4px;
 }
 
