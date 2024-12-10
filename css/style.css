@@ -4,10 +4,11 @@
 
 /*---------- Global Style ----------*/
 
-body {
+body,
+.docs-gm,
+body.docs-gm {
   color: white;
-  font-family: "Barlow", sans-serif;
-  font-optical-sizing: auto;
+  font-family: "Barlow", sans-serif !important;
   font-weight: 400;
   font-style: normal;
   background-color: #a51080;
@@ -73,5 +74,25 @@ iframe {
   border-radius: 10px;
   min-width: 350px;
   margin: 0 auto;
-  font-family: "Barlow", sans-serif;
+  font-family: "Barlow", serif;
+}
+
+.ritz .waffle .s6 {
+  font-family: "Barlow", serif !important;
+}
+
+#barlow,
+td,
+tr,
+th,
+.s0,
+.s1,
+.s2,
+.s3,
+.s4,
+.s5,
+.s6,
+.s7,
+.s8 {
+  font-family: "Barlow", serif !important;
 }
